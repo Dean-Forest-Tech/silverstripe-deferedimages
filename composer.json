@@ -1,24 +1,24 @@
 {
-  "name": "i-lateral/silverstripe-deferedimages",
+  "name": "dft/silverstripe-deferedimages",
   "description": "Deferres loading of template images",
     "type": "silverstripe-vendormodule",
-    "homepage": "http://github.com/i-lateral/silverstripe-deferedimages",
+    "homepage": "http://github.com/Dean-Forest-Tech/silverstripe-deferedimages",
     "keywords": ["silverstripe", "images"],
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "ilateral",
-            "email": "info@ilateral.co.uk"
+            "name": "Dean Forest Tech",
+            "email": "info@dean-forest-tech.uk"
         }
     ],
     "support": {
-        "issues": "http://github.com/i-lateral/silverstripe-deferedimages/issues"
+        "issues": "http://github.com/Dean-Forest-Tech/silverstripe-deferedimages/issues"
     },
     "require": {
-        "silverstripe/framework": "~4.0",
-        "silverstripe/assets": "~1.0",
-        "i-lateral/silverstripe-deferedimages-theme": "^1.0",
-        "heyday/silverstripe-responsive-images": "^2.0"
+        "silverstripe/framework": "^4 || ^5",
+        "silverstripe/assets": "^1 || ^2",
+        "i-lateral/silverstripe-deferedimages-theme": "^1",
+        "heyday/silverstripe-responsive-images": "^3"
     },
     "extra": {
         "expose": [
@@ -27,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ilateral\\SilverStripe\\DeferedImages\\": "src/"
+            "DFT\\SilverStripe\\DeferedImages\\": "src/"
         }
     }
 }
