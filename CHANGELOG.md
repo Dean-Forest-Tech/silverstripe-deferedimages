@@ -36,3 +36,8 @@ Attach image load to window.load event stack (rather than hijacking it)
 ## 1.1.0
 
 * Added heyday/responsive-images to requirements and added support for picture elements
+
+## 1.2.0
+
+* Switch to DFT
+* Add SS5 support
