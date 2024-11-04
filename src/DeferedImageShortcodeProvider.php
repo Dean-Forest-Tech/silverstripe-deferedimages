@@ -1,8 +1,7 @@
 <?php
 
-namespace ilateral\SilverStripe\DeferedImages;
+namespace DFT\SilverStripe\DeferedImages;
 
-use SilverStripe\Dev\Debug;
 use SilverStripe\View\HTML;
 use SilverStripe\Assets\File;
 use SilverStripe\Assets\Image;

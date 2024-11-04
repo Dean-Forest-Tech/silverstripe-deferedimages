@@ -3,10 +3,10 @@ Name: deferedimages
 ---
 SilverStripe\Assets\Storage\DBFile:
   extensions:
-    - ilateral\SilverStripe\DeferedImages\DeferedImage
+    - DFT\SilverStripe\DeferedImages\DeferedImage
 SilverStripe\Assets\Image:
   extensions:
-    - ilateral\SilverStripe\DeferedImages\DeferedImage
+    - DFT\SilverStripe\DeferedImages\DeferedImage
 
 # Automatically add to pages
 ---
@@ -15,28 +15,28 @@ Only:
 ---
 PageController:
   extensions:
-    - ilateral\SilverStripe\DeferedImages\ControllerExtension
+    - DFT\SilverStripe\DeferedImages\ControllerExtension
 
 # If searchable installed, auto-add
 ---
 Only:
-  moduleexists: 'i-lateral/silverstripe-searchable'
+  moduleexists: 'dft/silverstripe-searchable'
 ---
-ilateral\SilverStripe\Searchable\Control\SearchResults:
+DFT\SilverStripe\Searchable\Control\SearchResults:
   extensions:
-    - ilateral\SilverStripe\DeferedImages\ControllerExtension
+    - DFT\SilverStripe\DeferedImages\ControllerExtension
 
 # If users module installed, auto-add
 ---
 Only:
-  moduleexists: 'i-lateral/silverstripe-users'
+  moduleexists: 'DFT/silverstripe-users'
 ---
-ilateral\SilverStripe\Users\Control\RegisterController:
+DFT\SilverStripe\Users\Control\RegisterController:
   extensions:
-    - ilateral\SilverStripe\DeferedImages\ControllerExtension
-ilateral\SilverStripe\Users\Control\AccountController:
+    - DFT\SilverStripe\DeferedImages\ControllerExtension
+DFT\SilverStripe\Users\Control\AccountController:
   extensions:
-    - ilateral\SilverStripe\DeferedImages\ControllerExtension
+    - DFT\SilverStripe\DeferedImages\ControllerExtension
   
 # If catalogue frontend installed, add to the controller
 ---
@@ -45,7 +45,7 @@ Only:
 ---
 SilverCommerce\CatalogueFrontend\Control\CatalogueController:
   extensions:
-    - ilateral\SilverStripe\DeferedImages\ControllerExtension
+    - DFT\SilverStripe\DeferedImages\ControllerExtension
 
 # If shopping cart installed, add to the controller
 ---
@@ -54,7 +54,7 @@ Only:
 ---
 SilverCommerce\ShoppingCart\Control\ShoppingCart:
   extensions:
-    - ilateral\SilverStripe\DeferedImages\ControllerExtension
+    - DFT\SilverStripe\DeferedImages\ControllerExtension
 
 # If checkout installed, add to the controller
 ---
@@ -63,4 +63,4 @@ Only:
 ---
 SilverCommerce\Checkout\Control\Checkout:
   extensions:
-    - ilateral\SilverStripe\DeferedImages\ControllerExtension
+    - DFT\SilverStripe\DeferedImages\ControllerExtension

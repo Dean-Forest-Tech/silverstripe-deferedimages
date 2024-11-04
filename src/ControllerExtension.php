@@ -1,6 +1,6 @@
 <?php
 
-namespace ilateral\SilverStripe\DeferedImages;
+namespace DFT\SilverStripe\DeferedImages;
 
 use SilverStripe\Core\Extension;
 use SilverStripe\View\Requirements;
