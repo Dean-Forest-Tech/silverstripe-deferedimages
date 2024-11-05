@@ -1,6 +1,6 @@
 {
-  "name": "dft/silverstripe-deferedimages",
-  "description": "Deferres loading of template images",
+    "name": "dft/silverstripe-deferedimages",
+    "description": "Deferres loading of template images",
     "type": "silverstripe-vendormodule",
     "homepage": "http://github.com/Dean-Forest-Tech/silverstripe-deferedimages",
     "keywords": ["silverstripe", "images"],
@@ -17,7 +17,7 @@
     "require": {
         "silverstripe/framework": "^4 || ^5",
         "silverstripe/assets": "^1 || ^2",
-        "i-lateral/silverstripe-deferedimages-theme": "^1",
+        "dft/silverstripe-deferedimages-theme": "^1",
         "heyday/silverstripe-responsive-images": "^3"
     },
     "extra": {
@@ -29,5 +29,7 @@
         "psr-4": {
             "DFT\\SilverStripe\\DeferedImages\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
