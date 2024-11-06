@@ -20,7 +20,7 @@ class ControllerExtension extends Extension
     {
         if (Config::inst()->get(static::class, 'load_script')) {
             Requirements::javascriptTemplate(
-                'i-lateral/silverstripe-deferedimages:client/dist/js/deferedimages.min.js',
+                'dft/silverstripe-deferedimages:client/dist/js/deferedimages.min.js',
                 []
             );
         }
