@@ -60,7 +60,12 @@ class DeferedImageShortcodeProvider extends ImageShortcodeProvider
                     $src = $resized->getURL();
                 }
             }
-            $micro_url = $record->MicroImage()->getURL();
+
+            $microimage = $record->MicroImage();
+
+            if (!empty($microimage)) {
+                $micro_url = $microimage->getURL();
+            }
         }
 
         // Build the HTML tag
