@@ -41,3 +41,4 @@ Attach image load to window.load event stack (rather than hijacking it)
 
 * Switch to DFT
 * Add SS5 support
+* Fix error when image not available to shortcode
